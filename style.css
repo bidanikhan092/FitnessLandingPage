@@ -164,7 +164,7 @@ tr {
   font-size: 6vw;
   font-weight: 800;
 }
-.Athletes {
+.AthleteCards {
   padding-top: 3vh;
   display: flex;
   justify-content: space-between;
@@ -200,37 +200,37 @@ tr {
     opacity: 1;
   }
 }
-.Athletes .Athlete:nth-child(2) {
+.AthleteCards .Athlete:nth-child(2) {
   transform: translateY(-8%);
   animation-name: entry1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-.Athletes .Athlete:nth-child(1) {
+.AthleteCards .Athlete:nth-child(1) {
   transform: translateX(-8%);
   animation-name: entry2;
   animation-duration: 1.3s;
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-.Athletes .Athlete:nth-child(3) {
+.AthleteCards .Athlete:nth-child(3) {
   transform: translateX(8);
   animation-name: entry3;
   animation-duration: 1.3s;
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-.Athletes:hover .Athlete {
+#Athletes:hover .AthleteCards .Athelete {
   animation-play-state: running;
 }
-.Athletes .Athlete:nth-child(1) {
+.AthleteCards .Athlete:nth-child(1) {
   text-align: left;
 }
-.Athletes .Athlete:nth-child(2) {
+.AthleteCards .Athlete:nth-child(2) {
   text-align: center;
 }
-.Athletes .Athlete:nth-child(3) {
+.AthleteCards .Athlete:nth-child(3) {
   text-align: right;
 }
 .card {
@@ -473,7 +473,7 @@ option {
   }
   .card-img-top {
     height: 40vh !important;
-  }  .Athletes {
+  }  .AthleteCards {
     flex-direction: column;
   }
   .card {
@@ -515,7 +515,7 @@ option {
   .sect2 {
     height: 50vh;
   }
-  .Athletes {
+  .AthleteCards {
     flex-direction: column;
   }
   .card {
