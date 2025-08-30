@@ -221,7 +221,7 @@ tr {
   animation-fill-mode: forwards;
   animation-play-state: paused;
 }
-#Athletes:hover .AthleteCards .Athelete {
+#Athletes:hover .container .AthleteCards .Athlete {
   animation-play-state: running;
 }
 .AthleteCards .Athlete:nth-child(1) {
